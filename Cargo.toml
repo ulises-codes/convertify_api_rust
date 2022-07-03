@@ -7,5 +7,7 @@ edition = "2021"
 
 [dependencies]
 csv = "1.1"
-serde = { version = "1.0.137", features = ["derive"] } 
 derive-getters = "0.2.0"
+rocket = { version = "0.5.0-rc.2", features = ["json"] }
+serde = { version = "1.0.137", features = ["derive"] } 
+state = { version = "0.5.3", features = ["tls"] }
