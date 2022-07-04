@@ -19,6 +19,10 @@ pub fn remove_underscores(key: &str) -> String {
         .join(" ")
 }
 
+pub fn multiply(a: f64, b: &f64) -> f64 {
+    a * b
+}
+
 #[cfg(test)]
 mod tests {
     use super::*;
