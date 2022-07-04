@@ -43,6 +43,7 @@ impl Record {
     }
 }
 
+#[allow(unused)]
 #[derive(Clone, Getters, Debug, Deserialize)]
 pub struct Unit {
     from: String,
